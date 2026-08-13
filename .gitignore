@@ -1,10 +1,32 @@
-# Python-generated files
+# Python & Virtual Envs
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+.venv/
+venv/
+ENV/
 
-# Virtual environments
-.venv
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & Credentials
+.env
+.env.local
+*.pem
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
